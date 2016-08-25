@@ -27,7 +27,7 @@ public class TodoData {
 		return instance;
 	}
 
-	//PRIVATE CONSTRUCTOR
+	//PRIVATE CONSTRUCTOR for SINGLETON
 	private TodoData()
 	{
 		formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
